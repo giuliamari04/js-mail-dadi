@@ -1,3 +1,5 @@
+// PRIMO ESERCIZIO EMAIL
+
 const utenti = [
     'pippo@gmail.com',
     'pluto@gmail.com',
@@ -28,4 +30,9 @@ button.addEventListener('click', function () {
     
    alert.textContent = text;
     alert.classList.remove('d-none');
+
 })
+
+
+
+
