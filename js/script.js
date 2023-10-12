@@ -23,9 +23,9 @@ button.addEventListener('click', function () {
     }
     let text;
     if (trovato) {
-        text = 'utente presente ';
+        text = 'utente presente in lista';
     } else {
-        text = 'non sei nella lista ';
+        text = 'non sei nella lista )-: ';
     }
     
    alert.textContent = text;

@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Mail-dadi</title>
 </head>
-<body>
-    <button class="btn btn-close-white"><a href="../index.html" class="text-decoration-none">go back</a></button>
-    <div class="wrapper d-flex justify-content-center align-items-center align-content-center">
-    <div class="container text-center">
-        <label for="email" class="form-label">Inserisci la tua e-mail</label><br>
-        <input type="email" placeholder="Inserisci qui..." id="email" ><br>
+<body class="body2">
+
+    <button class="btn btn-outline-light m-2"><a href="../index.html" class="text-decoration-none text-light">go back</a></button>
+    <div class="wrapper d-flex flex-column justify-content-center align-items-center align-content-center">
+        <div class="element"></div>
+    <div class="container w-50 text-center">
+        <label for="email" class="form-label text-light">Inserisci la tua e-mail</label><br>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">@</span>
+            <input type="text" class="form-control " placeholder="Inserisci email..." aria-label="Inserisci email" aria-describedby="addon-wrapping" id="email">
+          </div>
         <button id="bottone" class="btn btn-primary m-2">invia</button>
-        <div class="alert d-none"></div>
+        <div class="alert my-bg-white d-none"></div>
     </div>
    
     </div>
+
     <script src="../js/script.js"></script>
 </body>
 </html>
